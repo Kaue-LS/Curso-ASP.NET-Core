@@ -1,0 +1,11 @@
+<!-- Define o tipo de projeto que estamos desenvolvendo -->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+  <!-- Configurações do projeto, versao da API -->
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
