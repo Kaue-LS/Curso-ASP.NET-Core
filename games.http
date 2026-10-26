@@ -1,0 +1,29 @@
+GET http://localhost:5083/games         
+
+# 
+GET http://localhost:5083/games/4
+
+# 
+POST http://localhost:5083/games
+Content-Type: application/json
+
+{
+  "name": "Lies of P",
+  "genre": "SoulsLike",
+  "price": 249.99,
+  "releaseDate": "2023-07-15"
+}
+
+# 
+DELETE http://localhost:5083/games/1
+
+# 
+PUT http://localhost:5083/games/1
+Content-Type: application/json
+
+{
+    "name": "Street Fighter 2 Turbo",
+    "genre": "Fighting",
+    "price": 149.99,
+    "releaseDate": "1992-07-15"
+}
